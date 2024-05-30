@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="PHP">
+        <meta name="author" content="gardesmagali">
+        <title>Exercice Bonnus PHP</title>
+        <link rel="icon" type="image/x-icon" href="image/php.ico">
+        <!-- Font Awesome icons -->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <!-- CSS (incluant Bootstrap)-->
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!-- Barre nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark nav-dark">
+            <h3 class="navbar-brand">Exercice Bonus PHP</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end menu-dropdown" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="exophp.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="enonce.html">Énoncé</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="exercice.html">Exercice</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+        <!-- Enoncé -->
+        <div class="container mt-5 text-center centered-content">
+            <h1>Énoncé de l'exercice</h1>
+            <h5>Creer un formulaire qui me demande:<br>
+                -mon nom, prénom, sexe (via ces radio box)<br>
+                - mon statuts (étudiant(e), salarié, à mon compte, au chômage via un champs select)<br>
+                -date de naissance<br>
+               Au clique sur le bouton de validation je suis renvoyé vers une page qui me donne :
+                Bonjour Monsieur/madame (seulement celui nécessaire) + Mon nom + Mon prénom (mon statuts)<br>
+                Vous êtes né le Ma date de naissance, vous avez donc XXANS et votre anniversaire est dans XX Jour(s => jour automatiquement avec ou sans S) ou votre anniversaire est aujourd’hui.<br>
+                *Et chargé une image différente si on est le matin (entre 8h et 12h) l’après midi (entre 12h et 19h) le soir / nuit (19h  8h)
+            </h5>
+            <p><strong>Voir l'exercice <a href="exercice.html">ici</a>.</strong></p>
+        </div>
+        <img class="mx-auto d-block" src="image/php.png" alt="Image de bienvenue">
+    
+        <!-- footer -->
+        <footer class="footer mt-auto py-3">
+            <div class="container text-center">
+                <span>GardèsMag © 2023   -   Exercice Bonus PHP</span>
+            </div>
+        </footer>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+      </body>
+</html>
